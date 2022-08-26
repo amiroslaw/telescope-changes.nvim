@@ -2,20 +2,25 @@
 
 Telescope extension wrapper around `:changes`
 
+# Fork information
+The extension is a fork from [LinArcX](https://github.com/LinArcX/telescope-changes.nvim).
+I've added jump functionality when an entry is selected and a preview of the changed line.
+The main difference between vim's changes is that I limited that list to the unique lines (the most recent changes).
+
 # Installation
 
 ### Vim-Plug
 
 ```viml
 Plug "nvim-telescope/telescope.nvim"
-Plug "LinArcX/telescope-changes.nvim"
+Plug "amiroslaw/telescope-changes.nvim"
 ```
 
 ### Packer
 
 ```lua
 use { "nvim-telescope/telescope.nvim" }
-use { "LinArcX/telescope-changes.nvim" }
+use { "amiroslaw/telescope-changes.nvim" }
 ```
 
 # Setup and Configuration
